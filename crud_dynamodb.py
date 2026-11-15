@@ -48,3 +48,4 @@ for item in respuesta_scan['Items']:
     print(f" - Encontrado: {item['puesto']}")
     
 print("\n¡Operaciones completadas!")
+#El código administra vacantes laborales en Amazon DynamoDB mediante Python. Permite insertar, consultar, actualizar y eliminar registros, además de buscar vacantes por empresa utilizando la operación Scan.
