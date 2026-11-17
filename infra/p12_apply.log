@@ -1,0 +1,28 @@
+Script started on 2026-11-17 07:35:15+00:00 [TERM="screen-256color" TTY="/dev/pts/2" COLUMNS="154" LINES="60"]
+[0m[1mrandom_id.suffix: Refreshing state... [id=sORPMA][0m
+[0m[1maws_s3_bucket.p12: Refreshing state... [id=los-ingenieros-p12-iac-b0e44f30][0m
+[0m[1maws_s3_bucket_server_side_encryption_configuration.p12: Refreshing state... [id=los-ingenieros-p12-iac-b0e44f30][0m
+[0m[1maws_s3_bucket_versioning.p12: Refreshing state... [id=los-ingenieros-p12-iac-b0e44f30][0m
+[0m[1mdata.aws_iam_policy_document.p12_deny_insecure: Reading...[0m[0m
+[0m[1maws_s3_bucket_public_access_block.p12: Refreshing state... [id=los-ingenieros-p12-iac-b0e44f30][0m
+[0m[1mdata.aws_iam_policy_document.p12_deny_insecure: Read complete after 0s [id=3619484387][0m
+[0m[1maws_s3_bucket_policy.p12: Refreshing state... [id=los-ingenieros-p12-iac-b0e44f30][0m
+
+[0m[1m[32mNo changes.[0m[1m Your infrastructure matches the configuration.[0m
+
+[0mTerraform has compared your real infrastructure against your configuration and found no differences, so no changes are needed.
+[0m[1m[32m
+Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
+[0m[0m[1m[32m
+Outputs:
+
+[0mbucket_arn = "arn:aws:s3:::los-ingenieros-p12-iac-b0e44f30"
+bucket_name = "los-ingenieros-p12-iac-b0e44f30"
+bucket_region = "us-east-1"
+versioning_status = "Enabled"
+
+real	0m5.375s
+user	0m3.347s
+sys	0m0.513s
+
+Script done on 2026-11-17 07:35:21+00:00 [COMMAND_EXIT_CODE="0"]
